@@ -1,0 +1,18 @@
+.explore {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    align-items: stretch;
+    justify-content: center;
+    overflow-y: scroll;
+    max-height: 800px;
+}
+.explore::-webkit-scrollbar {
+    display: none;
+  }
+  .maincard{
+    overflow: hidden;
+  }
+  .cardimg:hover{
+    transform: scale(1.2);
+  }

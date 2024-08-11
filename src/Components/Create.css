@@ -1,0 +1,10 @@
+.uploadfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upload{
+    margin-top: 10px;
+    width: 50%;
+}

@@ -1,0 +1,30 @@
+.searchbar{
+
+    height: 30px;
+    width: 215px;
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.serchitem {
+    display: flex;
+    margin-bottom: 30px;
+}
+.searchcomponent{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 500px;
+    height: 500px;
+}
+.card-body{
+    max-width: 100% !important;
+    overflow-y: scroll;
+    max-height: 100vh;
+    height: 70vh;
+}
+

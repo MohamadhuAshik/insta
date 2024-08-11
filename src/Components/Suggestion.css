@@ -1,0 +1,45 @@
+.suggestions__container {
+    width: 325px;
+    height: 290px;
+    margin-top: 25px;
+    
+}
+.suggestions__header {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+.suggestions__body {
+    height: 256px;
+    height: 290px;
+    margin-top: 10px;
+}
+.suggestions__friends {
+    display: flex;
+    padding: 5px 0px;
+    justify-content: space-between;
+}
+.suggestions__image {
+    
+    min-width: 60%;
+    min-height: 60px;
+    max-width: 35px;
+    max-height: 35px;
+}
+.suggestions__username{
+    font-weight: bold;
+    margin: 10px;
+}
+.follow:hover{
+    cursor: pointer;
+     color:  black;
+}
+.follow{
+   color: blue;
+}
+@media screen and (max-width:1160px) {
+    .suggestions__container {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+.commends{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 30px;
+    max-width: 47% !important;
+    overflow-y: scroll;
+    max-height: 800px;
+}
+.video::-webkit-scrollbar {
+    display: none;
+  }
+.vplayer{
+    width: 500px;
+    height: 500px;
+}
+.reelsec{
+    display: flex;
+    margin-bottom: 10%;
+   
+}
+
